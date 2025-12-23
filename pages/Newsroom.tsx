@@ -91,7 +91,7 @@ const newsItems = [
   },
 ];
 
-export const newsroom: React.FC = () => {
+export const Newsroom: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [showAllFilters, setShowAllFilters] = useState(false);
 

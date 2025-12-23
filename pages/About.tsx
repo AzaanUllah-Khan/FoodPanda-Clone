@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '../components/Button';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
-export const about: React.FC = () => {
+export const About: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeValue, setActiveValue] = useState('plan for tomorrow, focus on today');
 
@@ -236,7 +236,7 @@ export const about: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/2">
                     <img 
-                        src="../assets/about/Last Section.webp" 
+                        src="../assets/about/last Section.webp" 
                         className="w-full h-auto object-cover" 
                         alt="Join the team" 
                     />

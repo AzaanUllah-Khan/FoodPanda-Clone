@@ -45,7 +45,7 @@ const pressReleases = [
   },
 ];
 
-export const home: React.FC = () => {
+export const Home: React.FC = () => {
   return (
     <div>
       {/* Hero */}
