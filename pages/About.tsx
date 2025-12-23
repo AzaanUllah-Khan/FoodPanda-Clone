@@ -10,17 +10,17 @@ export const About: React.FC = () => {
     {
       title: 'Customers come first',
       text: "We’re far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.",
-      image: 'https://picsum.photos/seed/family_delivery_panda/1200/800'
+      image: '../Assets/About/c1.webp'
     },
     {
       title: 'Our riders are our heroes',
       text: "We're here to provide exciting opportunities and empower work flexibility. Learn more about our riders' journey or sign up to become one. Our riders are the backbone of our delivery network, ensuring smiles with every order.",
-      image: 'https://picsum.photos/seed/rider_smile_panda/1200/800'
+      image: '../Assets/About/c2.webp'
     },
     {
       title: 'Partnering for success',
       text: "We help restaurants and shops reach more customers and increase sales through our platform. Whether you're a small family business or a large chain, foodpanda provides the tools and support you need to thrive in the digital economy.",
-      image: 'https://picsum.photos/seed/chef_cooking_panda/1200/800'
+      image: '../Assets/About/c3.webp'
     }
   ];
 
@@ -29,37 +29,37 @@ export const About: React.FC = () => {
       id: 'prioritise, decide, deliver',
       title: 'prioritise, decide, deliver',
       description: "We focus on what matters most. We make decisions swiftly and execute with precision to deliver value to our stakeholders. We cut through complexity to get things done.",
-      image: 'https://picsum.photos/seed/delivery_illustration/800/800' 
+      image: '../Assets/About/v1.webp' 
     },
     {
       id: 'start with customer, end with customer',
       title: 'start with customer, end with customer',
       description: "We want our consumers, vendors, riders, employees (including prospective ones) – the customers who make up our ecosystem – to keep coming back to the product, service, and experience we create.",
-      image: 'https://picsum.photos/seed/customer_illustration/800/800'
+      image: '../Assets/About/v2.webp' 
     },
     {
       id: 'own it end-to-end',
       title: 'own it end-to-end',
       description: "We take full responsibility for our actions and outcomes. From the initial idea to the final result, we own every step of the process and ensure quality throughout.",
-      image: 'https://picsum.photos/seed/ownership/800/800'
+      image: '../Assets/About/v3.webp' 
     },
     {
       id: 'challenge the status quo',
       title: 'challenge the status quo',
       description: "We never settle for 'good enough'. We constantly look for ways to improve, innovate, and disrupt the industry to serve our customers better. We are not afraid to take risks.",
-      image: 'https://picsum.photos/seed/innovation/800/800'
+      image: '../Assets/About/v4.webp' 
     },
     {
       id: 'we before me',
       title: 'we before me',
       description: "We are one team. We support each other, share knowledge, and work together towards our common goals. Success is a team effort and we celebrate it together.",
-      image: 'https://picsum.photos/seed/teamwork/800/800'
+      image: '../Assets/About/v5.webp' 
     },
     {
       id: 'plan for tomorrow, focus on today',
       title: 'plan for tomorrow, focus on today',
       description: "Our environment is ever-changing and we meet these changes head-on by adopting a progress-driven mindset. We value diverse inputs, we push the envelope to open up possibilities for innovation, growth and ultimately staying ahead – for our customers, for foodpanda, and ourselves.",
-      image: 'https://picsum.photos/seed/calendar_planning/800/800'
+      image: '../Assets/About/v6.webp' 
     }
   ];
 
@@ -76,8 +76,8 @@ export const About: React.FC = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[400px] md:h-[500px]">
-        <img src="https://picsum.photos/seed/riders/1920/800" alt="Riders" className="w-full h-full object-cover" />
+      <section className="relative h-[400px] md:h-[400px]">
+        <img src="../Assets/About/hero-image.webp" alt="Riders" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/40 flex items-center">
           <div className="container mx-auto px-4 lg:px-8">
              <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg">
@@ -230,7 +230,7 @@ export const About: React.FC = () => {
                     <p className="text-lg text-gray-800 mb-8 leading-relaxed">
                         Hungry for growth? There’s a seat at our table! We’re looking for the best in tech, marketing, sales, logistics, account management and more. Explore career opportunities at foodpanda now.
                     </p>
-                    <Button size="lg" className="rounded-full bg-panda text-white hover:bg-panda-hover">
+                    <Button size="lg" className="rounded-full text-white hover:bg-panda-hover">
                         view jobs
                     </Button>
                 </div>
