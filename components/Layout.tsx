@@ -8,7 +8,7 @@ const navItems = [
   { label: 'About', path: '/about' },
   { label: 'Newsroom', path: '/newsroom' },
   { label: 'Partners', path: '/partners' },
-  { label: 'panda ads', path: '#' },
+  { label: 'panda ads', path: 'https://pandaads-azaan.vercel.app/' },
   { label: 'Contact', path: '/contact' },
   { label: 'Careers', path: '#' },
 ];
