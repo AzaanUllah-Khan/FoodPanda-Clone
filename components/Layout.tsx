@@ -42,12 +42,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <header className="fixed w-full bg-white z-50 shadow-sm top-0">
         <div className="container mx-auto px-4 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group shrink-0">
-            <div className="w-10 h-10 bg-panda rounded-xl flex items-center justify-center text-white shadow-sm">
-              <span className="text-2xl mt-1">🐼</span>
-            </div>
-            <span className="text-3xl font-bold text-panda tracking-tight">foodpanda</span>
-          </Link>
+          <img src="../Assets/Logo.svg" alt="logo" />
 
           {/* Desktop Nav */}
           <nav className="hidden xl:flex items-center gap-8 h-full">
@@ -70,7 +65,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
           {/* Right Side */}
           <div className="hidden xl:flex items-center gap-6">
-             <Button className="rounded-full px-6 py-2.5 text-base font-bold shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 bg-panda text-white hover:bg-panda-hover">
+             <Button className="rounded-full px-6 py-2.5 text-base font-bold transition-all transform text-white hover:bg-panda-hover">
                 Choose location
              </Button>
              <button className="text-black hover:text-panda transition-colors p-2">
