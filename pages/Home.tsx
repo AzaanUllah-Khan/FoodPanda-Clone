@@ -49,14 +49,22 @@ export const Home: React.FC = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[500px] md:h-[600px] flex items-center overflow-hidden">
+      <section className="relative h-[400px] md:h-[400px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://picsum.photos/seed/pizza/1920/1080" alt="Hero" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-black/30" />
+          <video width="100%"
+            poster="../Assets/Home/video-poster.webp"
+            autoPlay
+            muted
+            loop
+            playsInline
+            style={{objectFit:'cover',objectPosition:'bottom'}}
+          >
+            <source src="../Assets/Home/HeroVideo.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white max-w-3xl leading-tight drop-shadow-lg">
-            food and groceries<br />in a tap
+            food<br /> and groceries<br />in a tap
           </h1>
         </div>
       </section>
