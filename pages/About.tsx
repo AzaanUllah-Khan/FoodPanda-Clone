@@ -78,8 +78,8 @@ export const About: React.FC = () => {
       {/* Hero */}
       <section className="relative h-[400px] md:h-[400px]">
         <img src="../Assets/About/hero-image.webp" alt="Riders" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/40 flex items-center">
-          <div className="container mx-auto px-4 lg:px-8">
+        <div className="absolute inset-0 bg-black/40 flex items-end">
+          <div className="container mx-auto px-4 lg:px-8 pb-4 lg:pb-8">
              <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg">
                 About<br />foodpanda
              </h1>

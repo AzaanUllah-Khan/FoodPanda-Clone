@@ -100,7 +100,7 @@ export const Partners: React.FC = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[400px] md:h-[400px] flex items-center overflow-hidden">
+      <section className="relative h-[400px] md:h-[400px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="../Assets/Partners/hero.png"
@@ -111,7 +111,7 @@ export const Partners: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
         </div>
 
-        <div className="container mx-auto px-4 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 lg:px-8 pb-4 lg:pb-8 relative z-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
             Get more orders with<br />
             with foodpanda
