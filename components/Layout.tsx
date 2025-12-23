@@ -42,7 +42,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <header className="fixed w-full bg-white z-50 shadow-sm top-0">
         <div className="container mx-auto px-4 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo */}
-          <img src="/Assets/Logo.svg" alt="logo" />
+          <img src="/assets/logo.svg" alt="logo" />
 
           {/* Desktop Nav */}
           <nav className="hidden xl:flex items-center gap-8 h-full">

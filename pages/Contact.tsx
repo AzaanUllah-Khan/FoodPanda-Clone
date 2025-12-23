@@ -8,7 +8,7 @@ export const Contact: React.FC = () => {
             <section className="relative h-[400px] md:h-[400px] flex items-center overflow-hidden">
                 <div className="absolute inset-0">
                     <img
-                        src="../Assets/Contact/hero.webp"
+                        src="../assets/contact/hero.webp"
                         alt="Partner Hero"
                         className="w-full h-full object-cover"
                     />
@@ -76,7 +76,7 @@ export const Contact: React.FC = () => {
                         <div className="w-full md:w-1/2 lg:w-7/12 flex items-center justify-center">
                             <div className="relative w-full max-w-lg">
                                 <img
-                                    src="../Assets/Contact/contact.webp"
+                                    src="../assets/contact/contact.webp"
                                     className="w-full h-auto object-contain"
                                     alt="Panda Mascot"
                                 />

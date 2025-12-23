@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '../components/Button';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
-export const About: React.FC = () => {
+export const about: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeValue, setActiveValue] = useState('plan for tomorrow, focus on today');
 
@@ -10,17 +10,17 @@ export const About: React.FC = () => {
     {
       title: 'Customers come first',
       text: "We’re far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.",
-      image: '../Assets/About/c1.webp'
+      image: '../assets/about/c1.webp'
     },
     {
       title: 'Our riders are our heroes',
       text: "We're here to provide exciting opportunities and empower work flexibility. Learn more about our riders' journey or sign up to become one. Our riders are the backbone of our delivery network, ensuring smiles with every order.",
-      image: '../Assets/About/c2.webp'
+      image: '../assets/about/c2.webp'
     },
     {
       title: 'Partnering for success',
       text: "We help restaurants and shops reach more customers and increase sales through our platform. Whether you're a small family business or a large chain, foodpanda provides the tools and support you need to thrive in the digital economy.",
-      image: '../Assets/About/c3.webp'
+      image: '../assets/about/c3.webp'
     }
   ];
 
@@ -29,37 +29,37 @@ export const About: React.FC = () => {
       id: 'prioritise, decide, deliver',
       title: 'prioritise, decide, deliver',
       description: "We focus on what matters most. We make decisions swiftly and execute with precision to deliver value to our stakeholders. We cut through complexity to get things done.",
-      image: '../Assets/About/v1.webp' 
+      image: '../assets/about/v1.webp' 
     },
     {
       id: 'start with customer, end with customer',
       title: 'start with customer, end with customer',
       description: "We want our consumers, vendors, riders, employees (including prospective ones) – the customers who make up our ecosystem – to keep coming back to the product, service, and experience we create.",
-      image: '../Assets/About/v2.webp' 
+      image: '../assets/about/v2.webp' 
     },
     {
       id: 'own it end-to-end',
       title: 'own it end-to-end',
       description: "We take full responsibility for our actions and outcomes. From the initial idea to the final result, we own every step of the process and ensure quality throughout.",
-      image: '../Assets/About/v3.webp' 
+      image: '../assets/about/v3.webp' 
     },
     {
       id: 'challenge the status quo',
       title: 'challenge the status quo',
       description: "We never settle for 'good enough'. We constantly look for ways to improve, innovate, and disrupt the industry to serve our customers better. We are not afraid to take risks.",
-      image: '../Assets/About/v4.webp' 
+      image: '../assets/about/v4.webp' 
     },
     {
       id: 'we before me',
       title: 'we before me',
       description: "We are one team. We support each other, share knowledge, and work together towards our common goals. Success is a team effort and we celebrate it together.",
-      image: '../Assets/About/v5.webp' 
+      image: '../assets/about/v5.webp' 
     },
     {
       id: 'plan for tomorrow, focus on today',
       title: 'plan for tomorrow, focus on today',
       description: "Our environment is ever-changing and we meet these changes head-on by adopting a progress-driven mindset. We value diverse inputs, we push the envelope to open up possibilities for innovation, growth and ultimately staying ahead – for our customers, for foodpanda, and ourselves.",
-      image: '../Assets/About/v6.webp' 
+      image: '../assets/about/v6.webp' 
     }
   ];
 
@@ -77,11 +77,11 @@ export const About: React.FC = () => {
     <div>
       {/* Hero */}
       <section className="relative h-[400px] md:h-[400px]">
-        <img src="../Assets/About/hero-image.webp" alt="Riders" className="w-full h-full object-cover" />
+        <img src="../assets/about/hero-image.webp" alt="Riders" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/40 flex items-end">
           <div className="container mx-auto px-4 lg:px-8 pb-4 lg:pb-8">
              <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg">
-                About<br />foodpanda
+                about<br />foodpanda
              </h1>
           </div>
         </div>
@@ -236,7 +236,7 @@ export const About: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/2">
                     <img 
-                        src="../Assets/About/Last Section.webp" 
+                        src="../assets/about/Last Section.webp" 
                         className="w-full h-auto object-cover" 
                         alt="Join the team" 
                     />

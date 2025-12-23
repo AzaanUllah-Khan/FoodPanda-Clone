@@ -7,7 +7,7 @@ const pressReleases = [
     id: 1,
     type: 'image',
     tag: 'Press Releases',
-    img: '../Assets/Home/carousel1.jpg',
+    img: '../assets/home/carousel1.jpg',
     title: 'Memorandum of Understanding Signing',
     date: '25.04.2025'
   },
@@ -15,7 +15,7 @@ const pressReleases = [
     id: 2,
     type: 'image',
     tag: 'Business',
-    img: '../Assets/Home/carousel2.jpg',
+    img: '../assets/home/carousel2.jpg',
     title: 'foodpanda delivered 2024',
     date: '31.01.2025'
   },
@@ -23,7 +23,7 @@ const pressReleases = [
     id: 3,
     type: 'image',
     tag: 'Business',
-    img: '../Assets/Home/carousel3.jpg',
+    img: '../assets/home/carousel3.jpg',
     title: 'foodpanda Partners with Fiserv to Enable More Streamlined and Secure eCommerce Payments Across Asia',
     date: '23.10.2024'
   },
@@ -31,7 +31,7 @@ const pressReleases = [
     id: 4,
     type: 'image',
     tag: 'Press Releases',
-    img: '../Assets/Home/carousel4.jpg',
+    img: '../assets/home/carousel4.jpg',
     title: 'foodpanda Singapore launches inaugural Rider Safety Month in partnership with Traffic Police',
     date: '07.10.2024'
   },
@@ -39,27 +39,27 @@ const pressReleases = [
     id: 5,
     type: 'image',
     tag: 'Press Releases',
-    img: '../Assets/Home/carousel5.jpg',
+    img: '../assets/home/carousel5.jpg',
     title: "foodpanda Malaysia launches 'Jejak Panda' to provide accessible income opportunities",
     date: '13.08.2024'
   },
 ];
 
-export const Home: React.FC = () => {
+export const home: React.FC = () => {
   return (
     <div>
       {/* Hero */}
       <section className="relative h-[400px] md:h-[400px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <video width="100%"
-            poster="../Assets/Home/video-poster.webp"
+            poster="../assets/home/video-poster.webp"
             autoPlay
             muted
             loop
             playsInline
             style={{objectFit:'cover',objectPosition:'bottom'}}
           >
-            <source src="../Assets/Home/HeroVideo.mp4" type="video/mp4" />
+            <source src="../assets/home/heroVideo.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="container mx-auto px-4 lg:px-8 relative z-0 pb-4 lg:pb-8">
@@ -83,7 +83,7 @@ export const Home: React.FC = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
-              <img src="../Assets/Home/section 1.webp" alt="App Preview" className="w-full" />
+              <img src="../assets/home/section 1.webp" alt="App Preview" className="w-full" />
             </div>
             <div className="w-full md:w-1/2 md:pl-8">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Meet the next generation of delivery!</h2>
@@ -108,13 +108,13 @@ export const Home: React.FC = () => {
                 Try us out! Delicious food and speedy groceries are at your fingertips. Go ahead, download foodpanda now.
               </p>
               <div className="flex flex-wrap gap-2">
-                <img src="../Assets/Home/app-apple.png" alt="app-store" />
-                <img src="../Assets/Home/app-google.png" alt="google-play" />
-                <img src="../Assets/Home/app-huawei.png" alt="appgallery" />
+                <img src="../assets/home/app-apple.png" alt="app-store" />
+                <img src="../assets/home/app-google.png" alt="google-play" />
+                <img src="../assets/home/app-huawei.png" alt="appgallery" />
               </div>
             </div>
             <div className="w-full md:w-1/2">
-              <img src="../Assets/Home/section 2.webp" alt="Convenience" className="w-full" />
+              <img src="../assets/home/section 2.webp" alt="Convenience" className="w-full" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ export const Home: React.FC = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
-              <img src="../Assets/Home/section 3.webp" alt="Careers" className="w-full" />
+              <img src="../assets/home/section 3.webp" alt="Careers" className="w-full" />
             </div>
             <div className="w-full md:w-1/2 md:pl-8">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Find the job you'd love</h2>
@@ -196,7 +196,7 @@ export const Home: React.FC = () => {
               <Button size="lg">Explore</Button>
             </div>
             <div className="w-full md:w-1/2">
-              <img src="../Assets/Home/section 4.webp" alt="Convenience" className="w-full" />
+              <img src="../assets/home/section 4.webp" alt="Convenience" className="w-full" />
             </div>
           </div>
         </div>

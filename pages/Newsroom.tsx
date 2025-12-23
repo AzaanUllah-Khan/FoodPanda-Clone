@@ -10,88 +10,88 @@ const newsItems = [
     title: 'foodpanda strengthens merchant care with record onboarding milestone in Asia', 
     tag: 'APAC', 
     date: '17.12.2025', 
-    img: '../Assets/Newsroom/main-news.jpg' 
+    img: '../assets/newsroom/main-news.jpg' 
   },
   { 
     id: '2', 
     title: 'foodpanda expands \'panda hearts\' programme, reports 30% drop in rider accidents across Asia', 
     tag: 'APAC', 
     date: '25.11.2025', 
-    img: '../Assets/Newsroom/n2.jpg' 
+    img: '../assets/newsroom/n2.jpg' 
   },
   { 
     id: '3', 
     title: 'foodpanda brings unmatched value to pandapro members with one-of-a-kind ride-hailing partnerships across Asia', 
     tag: 'APAC', 
     date: '21.11.2025', 
-    img: '../Assets/Newsroom/n3.jpg' 
+    img: '../assets/newsroom/n3.jpg' 
   },
   { 
     id: '4', 
     title: 'foodpanda Singapore strengthens support for delivery partners through signed MOU with NDCA', 
     tag: 'SINGAPORE', 
     date: '25.04.2025', 
-    img: '../Assets/Newsroom/n4.jpg' 
+    img: '../assets/newsroom/n4.jpg' 
   },
   { 
     id: '5', 
     title: 'foodpanda delivered 2024', 
     tag: 'APAC', 
     date: '31.01.2025', 
-    img: '../Assets/Newsroom/n5.webp' 
+    img: '../assets/newsroom/n5.webp' 
   },
   { 
     id: '6', 
     title: 'foodpanda Partners with Fiserv to Enable More Streamlined and Secure eCommerce Payments Across Asia', 
     tag: 'APAC', 
     date: '23.10.2024', 
-    img: '../Assets/Newsroom/n6.webp' 
+    img: '../assets/newsroom/n6.webp' 
   },
   { 
     id: '7', 
     title: 'foodpanda Singapore launches inaugural Rider Safety Month in partnership with Traffic Police', 
     tag: 'SINGAPORE', 
     date: '07.10.2024', 
-    img: '../Assets/Newsroom/n7.webp' 
+    img: '../assets/newsroom/n7.webp' 
   },
   { 
     id: '8', 
     title: "foodpanda Malaysia launches 'Jejak Panda' to provide accessible income opportunities", 
     tag: 'MALAYSIA', 
     date: '13.08.2024', 
-    img: '../Assets/Newsroom/n8.webp' 
+    img: '../assets/newsroom/n8.webp' 
   },
   { 
     id: '9', 
     title: 'Finally, something in Yew Tee – foodpanda spices up Singapore’s "most dull" neighbourhood with unlimited free deliveries', 
     tag: 'SINGAPORE', 
     date: '12.08.2024', 
-    img: '../Assets/Newsroom/n9.webp' 
+    img: '../assets/newsroom/n9.webp' 
   },
   { 
     id: '10', 
     title: 'foodpanda Philippines partners with Jia to extend support to partner vendors', 
     tag: 'PHILIPPINES', 
     date: '30.07.2024', 
-    img: '../Assets/Newsroom/n10.webp' 
+    img: '../assets/newsroom/n10.webp' 
   },
   { 
     id: '11', 
     title: 'foodpanda Singapore awards $10,500 in bursaries to delivery partners and their families', 
     tag: 'SINGAPORE', 
     date: '30.07.2024', 
-    img: '../Assets/Newsroom/n11.jpg' 
+    img: '../assets/newsroom/n11.jpg' 
   },
   { 
     id: '12', 
     title: 'foodpanda partners with Cybersource to drive business growth in Asia Pacific through enhanced customer checkout experience', 
     tag: 'APAC', 
     date: '25.07.2024', 
-    img: '../Assets/Newsroom/n12.jpg' 
+    img: '../assets/newsroom/n12.jpg' 
   },
 ];
 
-export const Newsroom: React.FC = () => {
+export const newsroom: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [showAllFilters, setShowAllFilters] = useState(false);
 
@@ -105,7 +105,7 @@ export const Newsroom: React.FC = () => {
         {/* Featured Article */}
         <div className="flex flex-col md:flex-row mb-24 h-auto md:h-[500px]">
             <div className="md:w-1/2 h-64 md:h-full">
-                <img src="../Assets/Newsroom/main-news.jpg" className="w-full h-full object-cover" alt="Featured" />
+                <img src="../assets/newsroom/main-news.jpg" className="w-full h-full object-cover" alt="Featured" />
             </div>
             <div className="md:w-1/2 p-8 md:p-16 flex flex-col justify-center bg-[#F7F7F7]">
                 <div className="flex items-center gap-4 mb-4">

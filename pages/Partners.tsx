@@ -37,61 +37,61 @@ export const Partners: React.FC = () => {
       title: 'Are you ready to reach more customers?',
       desc: 'Don’t miss out on earnings. Join foodpanda to reach more customers and increase revenue.',
       cta: 'Let’s get started!',
-      img: "../Assets/Partners/c1.webp"
+      img: "../assets/partners/c1.webp"
     },
     'Philippines': {
       title: 'Are you ready to expand your reach and connect with new customers?',
       desc: 'Let more customers find you. Partner with foodpanda and increase online visibility.',
       cta: 'Get Started',
-      img: "../Assets/Partners/c2.webp"
+      img: "../assets/partners/c2.webp"
     },
     'Bangladesh': {
       title: 'Ready to expand your reach to more customers?',
       desc: 'Don’t just serve locals, serve your city. Let foodpanda connect you to new customers.',
       cta: 'Get Started',
-      img: "../Assets/Partners/c3.webp"
+      img: "../assets/partners/c3.webp"
     },
     'Hong Kong': {
       title: 'Would you like to increase your customer base and brand reach?',
       desc: 'foodpanda’s campaigns and offers puts your restaurant in front of thousands of customers.',
       cta: 'Get started!',
-      img: "../Assets/Partners/c4.webp"
+      img: "../assets/partners/c4.webp"
     },
     'Pakistan': {
       title: 'Ready to expand your reach?',
       desc: 'Don’t miss out on earnings. Join foodpanda to reach more customers and increase revenue.',
       cta: 'Get started now!',
-      img: "../Assets/Partners/c5.webp"
+      img: "../assets/partners/c5.webp"
     },
     'Singapore': {
       title: 'Are you ready to reach new customers?',
       desc: 'Boost your profits. Get more orders and better margins when you partner with foodpanda.',
       cta: 'Sign Up Now',
-      img: "../Assets/Partners/c6.webp"
+      img: "../assets/partners/c6.webp"
     },
     'Taiwan': {
       title: 'Would you like to boost customer reach and revenue?',
       desc: 'Don’t miss out on earnings. Join foodpanda to reach more customers and increase revenue.',
       cta: 'Start now!',
-      img: "../Assets/Partners/c7.webp"
+      img: "../assets/partners/c7.webp"
     },
     'Cambodia': {
       title: 'Looking to grow your business with your customers?',
       desc: 'Don’t wait – Sign up now to start growing your business with deliveries!',
       cta: 'Get Started Now!',
-      img: "../Assets/Partners/c8.webp"
+      img: "../assets/partners/c8.webp"
     },
     'Laos': {
       title: 'Partner with us to grow your business',
       desc: 'Reach more customers and deliver happiness with foodpanda.',
       cta: 'Get Started',
-      img: "../Assets/Partners/c9.webp"
+      img: "../assets/partners/c9.webp"
     },
     'Myanmar': {
       title: 'Expand your business with foodpanda',
       desc: 'Join the leading food delivery platform in Myanmar.',
       cta: 'Join now',
-      img: "../Assets/Partners/c10.webp"
+      img: "../assets/partners/c10.webp"
     }
   };
 
@@ -103,7 +103,7 @@ export const Partners: React.FC = () => {
       <section className="relative h-[400px] md:h-[400px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="../Assets/Partners/hero.png"
+            src="../assets/partners/hero.png"
             alt="Partner Hero"
             className="w-full h-full object-cover"
           />
@@ -187,7 +187,7 @@ export const Partners: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 */}
             <div className="relative h-[375px] overflow-hidden group cursor-pointer">
-              <img src="../Assets/Partners/p1.webp" className="absolute inset-0 w-full h-full object-cover object-left transition duration-500 group-hover:scale-110" alt="Reach New Customers" />
+              <img src="../assets/partners/p1.webp" className="absolute inset-0 w-full h-full object-cover object-left transition duration-500 group-hover:scale-110" alt="Reach New Customers" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60" />
               <div className="absolute inset-0 p-8">
                 <h3 className="text-white text-3xl font-bold uppercase leading-tight drop-shadow-md">
@@ -197,7 +197,7 @@ export const Partners: React.FC = () => {
             </div>
             {/* Card 2 */}
             <div className="relative h-[375px] overflow-hidden group cursor-pointer">
-              <img src="../Assets/Partners/p2.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Boost Volume" />
+              <img src="../assets/partners/p2.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Boost Volume" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60" />
               <div className="absolute inset-0 p-8">
                 <h3 className="text-white text-3xl font-bold uppercase leading-tight drop-shadow-md">
@@ -207,7 +207,7 @@ export const Partners: React.FC = () => {
             </div>
             {/* Card 3 */}
             <div className="relative h-[375px] overflow-hidden group cursor-pointer">
-              <img src="../Assets/Partners/p3.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Drive Sales" />
+              <img src="../assets/partners/p3.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Drive Sales" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60" />
               <div className="absolute inset-0 p-8">
                 <h3 className="text-white text-3xl font-bold uppercase leading-tight drop-shadow-md">
@@ -217,7 +217,7 @@ export const Partners: React.FC = () => {
             </div>
             {/* Card 4 */}
             <div className="relative h-[375px] overflow-hidden group cursor-pointer">
-              <img src="../Assets/Partners/p4.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Customer Satisfaction" />
+              <img src="../assets/partners/p4.jpg" className="object-left absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Customer Satisfaction" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60" />
               <div className="absolute inset-0 p-8">
                 <h3 className="text-white text-3xl font-bold uppercase leading-tight drop-shadow-md">
