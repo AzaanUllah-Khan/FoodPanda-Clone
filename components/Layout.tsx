@@ -10,7 +10,7 @@ const navItems = [
   { label: 'Partners', path: '/partners' },
   { label: 'panda ads', path: 'https://pandaads-azaan.vercel.app/' },
   { label: 'Contact', path: '/contact' },
-  { label: 'Careers', path: '#' },
+  { label: 'Careers', path: 'https://careerspanda-azaan.vercel.app/' },
 ];
 
 export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
