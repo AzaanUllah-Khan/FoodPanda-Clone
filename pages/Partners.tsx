@@ -113,7 +113,7 @@ export const Partners: React.FC = () => {
 
         <div className="container mx-auto px-4 lg:px-8 pb-4 lg:pb-8 relative z-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
-            Get more orders with<br />
+            Get more orders<br />
             with foodpanda
           </h1>
           <Button size="lg" className="bg-panda hover:bg-panda-hover text-white font-bold px-8 py-3 rounded-lg">

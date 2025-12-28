@@ -81,7 +81,7 @@ export const About: React.FC = () => {
         <div className="absolute inset-0 bg-black/40 flex items-end">
           <div className="container mx-auto px-4 lg:px-8 pb-4 lg:pb-8">
              <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg">
-                about<br />foodpanda
+                About<br />foodpanda
              </h1>
           </div>
         </div>
